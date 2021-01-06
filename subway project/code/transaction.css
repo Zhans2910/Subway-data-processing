@@ -1,0 +1,105 @@
+.title {
+    font-size: 30px;
+    margin: 0;
+    color: black;
+}
+.form-body input,
+.form-header,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 14px;
+}
+.form-body,
+.form-header,
+.month select,
+.year select {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.form-body,
+.form-header,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: 8;
+    color: black;
+}
+
+.form-body {
+    top: 50%;
+    left: 50%;
+     width: 30%;
+     margin-bottom: 20px;
+     padding-left: 20px;
+     border: 2px solid #e1e8ee;
+     border-radius: 6px;
+
+ }
+.month select,
+.year select {
+    text-shadow: black;
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: white;
+    background-position: 85% 50%;
+    -moz-appearance: scalethumb-horizontal;
+    -webkit-appearance: scrollbargripper-vertical;
+}
+
+.month select {
+    float: left;
+}
+
+.year select {
+    float: left;
+}
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.cvv-details p {
+    margin-top: 6px;
+}
+
+input[type=text] {
+
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background: blue;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

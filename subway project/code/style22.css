@@ -1,0 +1,200 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #4CAF50;
+}
+.box
+{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box select
+{
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,5);
+    -webkit-appearance: button;
+    outline: none;
+}
+.box:before
+{
+    content: '\f358';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: gold;
+    text-align: center;
+    line-height: 50px;
+    color: darkcyan;
+    font-size: 28px;
+    background: gold;
+    pointer-events: none;
+}
+.box:hover:before
+{
+    background: white;
+
+}
+
+.box1
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box1 select
+{
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,5);
+    -webkit-appearance: button;
+    outline: none;
+}
+.box1:before
+{
+    content: '\f358';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background:black;
+    text-align: center;
+    line-height: 50px;
+    color: darkcyan;
+    font-size: 28px;
+    background: gold;
+    pointer-events: none;
+}
+.box1:hover:before
+{
+    background: #006cff;
+
+}
+
+
+.box2
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box2 select
+{
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,5);
+    -webkit-appearance: button;
+    outline: none;
+}
+.box2:before
+{
+    content: '\f358';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: gold;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 28px;
+    background: gold;
+    pointer-events: none;
+}
+.box2:hover:before
+{
+    background: #006cff;
+
+}
+
+
+.box3
+{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box3 select
+{
+    background: white;
+    color: black;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,5);
+    -webkit-appearance: button;
+    outline: none;
+}
+.box3:before
+{
+    content: '\f358';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: darkblue;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 28px;
+    background:gold;
+    pointer-events: none;
+}
+.box3:hover:before
+{
+    background: #006cff;
+
+}
+
+.
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background: blue;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}

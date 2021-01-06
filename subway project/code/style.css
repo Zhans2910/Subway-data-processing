@@ -1,0 +1,485 @@
+html, body, h1, h2, h3, h4, h5, h6, p, a, div, ul, li, blockquote {
+	
+    margin:0;
+    padding:0;
+    font: Georgia, sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    color: black;
+}
+
+/*------------------------- BODY --------------------------------*/
+
+/*------------------------- HEADER-------------------------------*/
+header{
+width:1000px;
+height:80px;
+background-color: red;
+border-top:11px solid green;
+padding-top:21px;
+padding-bottom:30px;
+margin:auto;
+margin-bottom:50px;
+box-shadow: 0 2px 10px #666;
+}
+
+.glav{
+	color: #00004d;
+	font-size: 25px;
+	font-weight: bolder;
+	line-height: 150%;
+	text-shadow: #000000 0px 1px 1px;
+	position: absolute;
+	left: 200px;
+}
+
+main{
+	width:1000px;
+	margin:auto;
+}
+
+/*------------------------- WRAPPER -----------------------------*/
+ #wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+	
+}
+/*------------------------- LOGO --------------------------------*/
+img.el_tanba {
+	width:125px;
+    height:120px;
+	position: absolute;
+	left:50px;
+	
+}
+/*------------------------- REARCH ------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.container{
+  width: 0px;
+  height: 50px;
+  background: #00004d;
+  text-align: center;
+  line-height: 35px;
+  padding-right: 50px;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+  position: absolute;
+  right: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.input{
+  border: 0px;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  width: 0%;
+  padding: 5px 0;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.container .fa{
+  color: #ffffff;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.container.active{
+  width: 150px;
+  padding-left: 25px;
+  transition: all 0.5s ease;
+}
+
+.input.active{
+  width: 98%;
+  padding-left: 5px;
+  transition: all 0.5s 0.8s ease;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+/*------------------------- NAV ----------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+h1{
+  font:400 40px 'pt sans',sans-serif;
+  text-align:center;
+}
+.nav a{
+  text-decoration:none;
+}
+.nav{
+  height:70px;
+  background: #00004d;
+  width:1000px;
+  position: absolute;
+  top: 170px;
+}
+.nav>ul{
+  position:relative;
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+.nav>ul>li>ul{
+  position:absolute;
+  left:0;
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+.nav>ul>li:hover>ul li a{
+  opacity:1;
+  height:50px;
+   transition:all .3s linear;
+  -o-transition:all .3s linear;
+  -moz-transition:all .3s linear;
+  -webkit-transition:all .3s linear;
+}
+.nav>ul>li>ul a{
+  display:block;
+  color:#222;
+  width:150px;
+  line-height:50px !important;
+  font:700 14px 'pt sans',sans-serif;
+  background:#eee;
+  border-bottom:1px solid #ddd;
+  text-align:center;
+  padding:0 5px;
+   height:0;
+  overflow:hidden;
+  opacity:0;
+    transition:all .3s linear .2s;
+  -o-transition:all .3s linear .2s;
+  -moz-transition:all .3s linear .2s;
+  -webkit-transition:all .3s linear .2s;
+}
+.nav>ul>li{
+  float:left;
+  position:relative;
+}
+.nav>ul>li>a{
+  padding:0 20px;
+  color:#fff;
+  display:block;
+  line-height:70px !important;
+  font:400 15px 'PT Sans', sans-serif;
+  text-transform:uppercase;
+  text-decoration:none;
+}
+.lamp span{
+  display:block;
+  height:4px;
+  background:#ee6666;
+  position: relative;
+}
+.lamp span:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(238, 102, 102, 0);
+	border-bottom-color: #ee6666;
+	border-width: 4px;
+	margin-left: -4px;
+}
+.lamp{
+  position:absolute !important;
+  height:4px;
+  top:66px;
+  background:#333;
+  transition:all .3s linear;
+  -o-transition:all .3s linear;
+  -moz-transition:all .3s linear;
+  -webkit-transition:all .3s linear;
+}
+.selected.active>a,.active>a{
+  transition:all .3s linear;
+  -o-transition:all .3s linear;
+  -moz-transition:all .3s linear;
+  -webkit-transition:all .3s linear;
+  color:#fff;
+}
+
+
+.blog-link{
+color:#fff;
+text-decoration:none;
+background:#eee;
+background-size:40px;
+line-height:50px;
+display:inline-block;
+padding:0 10px;
+border-radius:4px;
+border-bottom:3px solid #ddd;
+color:#333;
+font-family:'open sans',sans-serif;
+margin:10px;
+}
+.dgithub{
+color:#fff;
+text-decoration:none;
+background:#eee url('https://lh6.googleusercontent.com/-MOW-T0KLZJI/UyR6EIggYkI/AAAAAAAAEbM/el92Uoxz-aI/s50-no/GitHub-Mark.png') no-repeat;
+background-size:40px;
+line-height:50px;
+display:inline-block;
+padding:0 10px 0 50px;
+background-position:5px;
+border-radius:4px;
+border-bottom:3px solid #ddd;
+color:#333;
+font-family:'open sans',sans-serif;
+margin:10px;
+}
+
+nav ul li {
+    border-right: 1px solid #555;
+    float: left;
+    list-style: none;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a:link,
+nav ul li a:visited {
+    
+  
+    
+    display: block;
+    background-color: #939598;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li:hover a,
+nav ul li:active a {
+    background-color: #ef3e36;
+    transition: background .75s
+}
+nav ul li a.current {
+    background-color: #666;
+    cursor: default;
+
+}
+
+/*-------------------- News -----------------*/
+
+.ggg{
+	font-size: 50px;
+	color: #00004d;
+	font-family: Georgia, serif;
+    font-style: italic;
+}
+.hr {
+	color: grey;
+	border-width: 2px;
+	float: left;
+
+}
+
+
+.hr1 {
+	color: grey;
+	border-width: 2px;
+	float: left;
+	margin: 30px;
+
+}
+
+.tet {
+	float: left;
+}
+
+
+/*--------------------- P ------------------*/
+.mektep {
+	float: left;
+}
+
+p {
+    padding: 10px 0;
+    font-size:20px;
+    line-height: 1.5em;
+    color: #00004d;
+	font-family: Georgia, serif;
+    font-style: italic, serif;
+}
+b {
+    font-weight: 900;
+    color: #00004d;
+}
+
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: 40px 0 5px;
+	color: #00004d;
+    font-family: Georgia, serif;
+    font-style: italic, serif;
+}
+
+
+.zhyl {
+	float: left;
+}
+
+.bal {
+	float: right;
+}
+
+.olen1 {
+	float: right;
+	position: relative;
+	right: 80px;
+}
+.olen2 {
+	float: right;
+	position: relative;
+	left: 60px;
+}
+/*--------------------- IMAGES -------------*/
+
+.mek {
+	margin: 10px 0 10px 20px;
+    padding: 5px;
+    float: right;
+    border:  groove #00004d;
+	wight: 400px;
+	height: 380px;
+}
+
+
+.wer{
+	float: right;
+}
+
+.ustaz {
+	float: right;
+	border:  groove #00004d;
+	wight: 280px;
+	
+}
+
+.qwe {
+	float: left;
+	border:  groove #00004d;
+	width: 500px;
+	height: 350px;
+}
+
+img.baybek {
+	width: 560px;
+	height: 320px;
+	border:  groove #00004d;
+	float: right;
+}
+
+.balnur{
+	width: 300px;
+	height: 380px;
+	margin-top: 20px;
+	border:  groove #00004d;
+}
+.dana{
+	width: 330px;
+	height: 280px;
+	posit
+	float: right;
+	border:  groove #00004d;
+}
+/*--------------------- FOOTER --------------------*/
+
+footer {
+    background: #00004d;
+	margin-top: 10px;
+}
+footer .columnWrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+	float: right;
+}
+footer .column {
+    width: 180px;
+    padding: 0 0 0 10px;
+    border-right: 2px solid #888;
+    float: left;
+}
+footer .column:last-child {
+    border-right: none;
+}
+footer h4 {
+    padding: 15px 0 7px;
+    color: #ddd;
+    text-transform: capitalize;
+}
+footer .address {
+    font-size: .75em;
+    line-height: 1.6em;
+    color: #bbb;
+}
+footer a:link, footer a:visited {
+    line-height: 1.6em;
+    color: #bbb;
+}
+footer a:hover, footer a:active {
+    color: #ef3e36;
+    transition: color .5s
+}
+footer .copyrightText {
+    padding: 40px 0 10px;
+    text-align: center;
+    font-size: .7em;
+    color: #aaa;
+}
+
+.map {
+	width: 540px;
+	height: 370px;
+}
+
+.ssylka {
+	color: #00004d;
+	font-family: Georgia, serif;
+    font-style: italic, serif;
+	font-size: 23px;
+}
+
+a {
+    color: #008000; 
+   }
+   a:visited {
+    color: #800080; 
+   } 
+   a:hover {
+    color: #800000; 
+    text-decoration: underline; 
+   }
+
+iframe {
+	 border:  groove #00004d;
+}
+
+.tapsyrma {
+	float: left;
+}
+

@@ -1,0 +1,27 @@
+body{
+
+//  background: url("Subway.png");
+    background-size: cover;
+}
+
+a {
+    color: yellow;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+.cong
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 240px;
+    margin: auto;
+    margin-top: 80px;
+    height: 200px;
+    margin-left: 180px;
+
+}
+h2
+{
+    margin-top: 50px;
+    margin-left: 10px;
+}
